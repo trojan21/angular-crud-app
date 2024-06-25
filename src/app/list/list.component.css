@@ -1,0 +1,37 @@
+.table-responsive {
+    max-width: 600px;
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.btn-danger {
+    background-color: transparent;
+    color: #ff7f50;
+    border: 1px solid #ff7f50;
+}
+
+.btn-warning {
+    background-color: transparent;
+    color: #ff7f50;
+    border: 1px solid #ff7f50;
+}
+::ng-deep .mat-icon-button {
+  width: 16px;
+  height: 16px;
+  line-height: 32px;
+}
+
+::ng-deep .mat-icon-button .mat-icon {
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
+}

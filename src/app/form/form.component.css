@@ -1,0 +1,43 @@
+/* form.component.css */
+.form-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .form-container {
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+  }
+  
+  .btn-custom {
+    width: 100px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  .btn-reset {
+    border: 1px solid #ff7f50;
+    color: #ff7f50;
+    background-color: transparent;
+  }
+  
+  .btn-save {
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+  }
+  
